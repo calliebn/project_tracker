@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Project Tracker</h1>
+        <h2>Current Date & Time</h2>
+        <div class="current-time"></div>
+    </header>
+    <container>
+        <aside>
+                <h3>
+                    Instructions
+                </h3>
+                <p>
+                    Click the button below to open a form and provide information for the following:
+                </p>
+                <ul>
+                    <li>Project Name</li>
+                    <li>Project Type</li>
+                    <li>Due Date</li>
+                    <li>Hourly Rate</li>
+                </ul>
+                <div class="project-button">
+                    <button id="add">Add Project</button>
+                </div>
+        </aside>
+        <section>
+            <table>
+                <tr>
+                    <th>
+                        Project Name
+                    </th>
+                    <th>
+                        Project Type
+                    </th>
+                    <th>
+                        Hourly Rate($)
+                    </th>
+                    <th>
+                        Due Date
+                    </th>
+                    <th>
+                        Days Until Due Date
+                    </th>
+                    <th>
+                        Potential Total Earnings($)
+                    </th>
+                    <th>
+                        
+                    </th>
+                </tr>
+                <tr>
+                    <td id="field1"></td>
+                </tr>
+                <tr>
+                    <td id="field2"></td>
+                </tr>
+                <tr>
+                    <td id="field3"></td>
+                </tr>
+                <tr>
+                    <td id="field4"></td>
+                </tr>
+                <tr>
+                    <td id="field5"></td>
+                </tr>
+                <tr>
+                    <td id="field6"></td>
+                </tr>
+                <tr>
+                    <td id="field7">X</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+    </container>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+</body>
+
+</html>

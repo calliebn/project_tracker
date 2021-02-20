@@ -1,9 +1,11 @@
 :root{
+    --dark: #696969;
 
 }
 
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: dimgrey;
+    background-color: #696969;
 }
